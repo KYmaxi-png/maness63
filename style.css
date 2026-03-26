@@ -4,7 +4,7 @@ body {
     background:#f5f5f5;
 }
 header{ 
-    background:#111
+    background:#111;
     color:white;
     tex-align:center;
     padding: 20px;
@@ -30,9 +30,9 @@ background:white;
     border-radius:5px;
     font-weight:bold;
 }
-.service{ 
+.services{ 
     padding:50px 20px;
-    test-align:center;
+    text-align:center;
 }
 .cards{ 
 display:flex;
