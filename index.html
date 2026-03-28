@@ -11,7 +11,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <title>Carrelagevisio</title>
 <link rel="stylesheet" href="style.css">
 </head>
- <body>  <!-- Google Tag Manager (noscript) -->
+<body>  <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NP68FN9N"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->           
@@ -40,18 +40,60 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
         </div>
 </section>
-<section class="cta"> 
-    <h2> Prêt à avancer sur votre projet ?</h2>
-    <a href="#" class="btn">Réserver maintenant</a>
-</section>
-<footer> 
+
+<section class="cta">
+
+  <h2>Prêt à avancer sur votre projet ?</h2>
+
+  <a href="https://wa.me/336XXXXXXXX" 
+     class="btn" 
+     id="btn-whatsapp"
+     target="_blank">
+     Contacter sur WhatsApp
+  </a>
+
+  <a href="#reservation" 
+     class="btn" 
+     id="btn-devis">
+     Réserver maintenant
+  </a>
+</section> 
  
+ <footer>  
     <p> 2026 Carrelagevisio
     </footer>
-</body>
 
+ <script>
+document.addEventListener("DOMContentLoaded", function() {
 
+    const btnDevis = document.getElementById("btn-devis");
+    const btnWhatsapp = document.getElementById("btn-whatsapp");
 
-</html>
+    if (btnDevis) {
+        btnDevis.addEventListener("click", function() {
+            console.log("Bouton devis cliqué");
 
-      
+            if (typeof gtag !== "undefined") {
+                gtag('event', 'click_devis', {
+                    'event_category': 'conversion',
+                    'event_label': 'bouton devis'
+                });
+            }
+        });
+    }
+
+    if (btnWhatsapp) {
+        btnWhatsapp.addEventListener("click", function() {
+            console.log("WhatsApp cliqué");
+
+            if (typeof gtag !== "undefined") {
+                gtag('event', 'click_whatsapp', {
+                    'event_category': 'contact',
+                    'event_label': 'whatsapp'
+                });
+            }
+        });
+    }
+
+});
+</script>
