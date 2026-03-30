@@ -39,7 +39,7 @@ section {
 }
 
 .accompagnement{
-  text-align: center;
+  text-align: right;
   max-widht: 600px;
   margin: auto;
 }
@@ -89,7 +89,7 @@ flex-wrap:wrap;
     text-align:center;
 }
 .cta {  
-    text-align:center;
+    text-align:right;
     padding:50px;
     background: black;
 }
