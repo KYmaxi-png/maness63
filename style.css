@@ -24,11 +24,11 @@ h1 {
 }
 
 section {
-  background-color: #1e1e1e; 
+  background-color: #ffffff; 
   padding: 2em;
   border-radius: 8px;
   font-family: 'Segoe UI', Tahoma, sans-serif; /* Police moderne et lisible */
-  color: #333; /* Texte foncé pour contraste */
+  color: #ffffff; 
   max-width: 800px;
   margin: 2em auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
@@ -96,6 +96,6 @@ flex-wrap:wrap;
 footer{ 
     tex-align:center;
     padding:20px;
-    background:#1e1e1e;
+    background:#ffffff;
     color:white;
  
