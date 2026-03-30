@@ -84,7 +84,7 @@ flex-wrap:wrap;
     border-radius:10px;
 }
 .testimonials { 
-    background:#eee;
+    background:#1e1e1e;
     padding:60px 20px;
     text-align:center;
 }
@@ -96,6 +96,6 @@ flex-wrap:wrap;
 footer{ 
     tex-align:center;
     padding:20px;
-    background:#111;
+    background:#1e1e1e;
     color:white;
  
