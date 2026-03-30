@@ -20,6 +20,24 @@ h1 {
   border-radius: 8px;
 }
 
+section {
+  background-color: #f5f5dc; /* Beige doux */
+  padding: 2em;
+  border-radius: 8px;
+  font-family: 'Segoe UI', Tahoma, sans-serif; /* Police moderne et lisible */
+  color: #333; /* Texte foncé pour contraste */
+  max-width: 800px;
+  margin: 2em auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+h4{
+  color: #8b4513; /* Brun chaleureux */
+  margin-bottom: 0.5em;
+}
+p {
+  line-height: 1.6;
+}
+
 .hero h2 { 
   font-size: 32px;
 }
