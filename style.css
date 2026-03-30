@@ -24,11 +24,11 @@ h1 {
 }
 
 section {
-  background-color: #ffffff; 
+  background-color: #1e1e1e; 
   padding: 2em;
   border-radius: 8px;
   font-family: 'Segoe UI', Tahoma, sans-serif; /* Police moderne et lisible */
-  color: #ffffff; 
+  color: black; 
   max-width: 800px;
   margin: 2em auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
@@ -91,7 +91,7 @@ flex-wrap:wrap;
 .cta {  
     text-align:center;
     padding:50px;
-    background:white;
+    background:red;
 }
 footer{ 
     tex-align:center;
