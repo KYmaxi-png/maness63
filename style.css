@@ -1,7 +1,7 @@
 body {
   
   background: #121212;
-  color: white;
+  color: black;
 }
 
 h1 {
@@ -28,7 +28,7 @@ section {
   padding: 2em;
   border-radius: 8px;
   font-family: 'Segoe UI', Tahoma, sans-serif; /* Police moderne et lisible */
-  color: black; 
+  color:white ; 
   max-width: 800px;
   margin: 2em auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
@@ -97,5 +97,5 @@ footer{
     tex-align:center;
     padding:20px;
     background:#ffffff;
-    color: white;
+    color: black;
  
