@@ -30,6 +30,17 @@ section {
   margin: 2em auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
 }
+
+.accompagnement H4 {
+  text-align: center
+}
+
+.accompagnement{
+  text-align: center;
+  max-widht: 600px;
+  margin: auto;
+}
+
 h4{
   color: #8b4513; /* Brun chaleureux */
   margin-bottom: 0.5em;
