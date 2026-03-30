@@ -90,9 +90,41 @@ target="_blank">
  Réserver dès maintenant
 </a>
  </section>
-    
- <section> 
- <p>Formulaire ici</p>
+<section>
+ <a href="#form-devis">
+  <button style="background:#ff7a00;color:white;padding:15px;border:none;border-radius:8px;">
+    Demander mon devis maintenant
+  </button>
+</a>
+ 
+<form id="form-devis">
+
+  <label>Nom</label><br>
+  <input type="text" name="nom" required><br><br>
+
+  <label>Téléphone</label><br>
+  <input type="tel" name="telephone" required><br><br>
+
+  <label>Email</label><br>
+  <input type="email" name="email"><br><br>
+
+  <label>Type de projet</label><br>
+  <select name="projet">
+    <option>Sol</option>
+    <option>Salle de bain</option>
+    <option>Terrasse</option>
+    <option>Autre</option>
+  </select><br><br>
+
+  <label>Surface approximative (m²)</label><br>
+  <input type="number" name="surface"><br><br>
+
+  <label>Décrivez votre projet</label><br>
+  <textarea name="description"></textarea><br><br>
+
+  <button type="submit">Recevoir mon estimation</button>
+
+</form>
 </section>
   
 <a href="https://api.whatsapp.com/send?phone=33660079044&text=Bonjour%20je%20souhaite%20un%20devis%20carrelage"
