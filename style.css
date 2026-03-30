@@ -1,13 +1,14 @@
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
+  
   background: #121212;
-  color: green;
+  color: white;
 }
 
 h1 {
   text-align: center;
-  background: #4dabf7;
+  color: white;
+  margin-bottom: 20px;
+  
 }
 .gallery {
   display: flex;
