@@ -34,11 +34,9 @@ section {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
 }
 
-.accompagnement H4 {
-  text-align: right;
 }
 
-.accompagnement{
+.accompagnement h4 {
   text-align: right;
   max-widht: 50px;
   margin: auto;
@@ -73,14 +71,14 @@ p {
 }
 .cards{ 
 display:flex;
-justify-content:center;
+justify-content:right;
 gap:20px;
 flex-wrap:wrap;
 }
 .card { 
     background: white;
     padding:20px;
-    width:250px;
+    width:25px;
     border-radius:10px;
 }
 .testimonials { 
