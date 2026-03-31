@@ -25,7 +25,7 @@ h1 {
 
 section {
   background-color: white; 
-  padding: 2em;
+  padding: 15px;
   border-radius: 8px;
   font-family: 'Segoe UI', Tahoma, sans-serif; /* Police moderne et lisible */
   color: black ; 
@@ -40,7 +40,7 @@ section {
 
 .accompagnement{
   text-align: right;
-  max-widht: 600px;
+  max-widht: 50px;
   margin: auto;
 }
 
