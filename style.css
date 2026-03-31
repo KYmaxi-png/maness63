@@ -93,6 +93,13 @@ flex-wrap:wrap;
     padding:50px;
     background: black;
 }
+
+.blocs {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
 footer{ 
     tex-align:center;
     padding:20px;
