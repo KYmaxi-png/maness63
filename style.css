@@ -70,16 +70,12 @@ p {
     text-align:center;
 }
 .cards{ 
-display:flex;
-justify-content:center;
-gap:20px;
-flex-wrap:wrap;
+width:250px;
+  margin: auto;
 }
 .card { 
-    background: white;
-    padding:20px;
-    width:25px;
-    border-radius:10px;
+ width:250px;  
+  margin:auto;
 }
 .testimonials { 
     background: black;
