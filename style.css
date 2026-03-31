@@ -60,9 +60,9 @@ p {
 }
 .btn{ 
     display: inline-block;
-    padding:15px 25px;
+    padding:50px 25px;
     background:#e67e22;
-    color:white;
+    color: grey;
     text-decoration: nore;
     border-radius:5px;
     font-weight:bold;
