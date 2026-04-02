@@ -70,12 +70,13 @@ p {
     text-align:center;
 }
 .cards{ 
-width:250px;
-  margin: auto;
+display: flex;
+justify-content:  center;
+gap: 20px;
+  flex-wrap: wrap;
 }
 .card { 
- width:250px;  
-  margin:auto;
+ width:300px; /* plus large */ 
 }
 .testimonials { 
     background: black;
