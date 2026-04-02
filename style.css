@@ -51,7 +51,7 @@ p {
 }
 
 .hero h2 { 
-  font-size: 15px;
+  font-size: 10px;
 }
 .hero p { 
     margin: 20px 0;
@@ -66,13 +66,13 @@ p {
     font-weight:bold;
 }
 .services{ 
-    padding:15px 20px;
+    padding:20px 15px; /* réduit l'espace */
     text-align:center;
 }
 .cards{ 
 display: flex;
 justify-content:  center;
-gap: 20px;
+gap: 15px; /* moins d'espace */
   flex-wrap: wrap;
 }
 .card { 
