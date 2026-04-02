@@ -25,11 +25,11 @@ h1 {
 
 section {
   background-color: white; 
-  padding: 30px 20px;
+  padding: 10px 15px;
   border-radius: 8px;
   font-family: 'Segoe UI', Tahoma, sans-serif; /* Police moderne et lisible */
   color: black ; 
-  max-width: 800px;
+  max-width: 300px;
   margin: 20px auto; /* réduit fortement */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
 }
