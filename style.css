@@ -76,7 +76,7 @@ gap: 20px;
   flex-wrap: wrap;
 }
 .card { 
- width:300px; /* plus large */ 
+ width:400px; /* plus large */ 
 }
 .testimonials { 
     background: black;
