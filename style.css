@@ -3,14 +3,6 @@ body {
   background-image: url("texture.png");
   background-repeat: repeat;
 }
-body {
-  background: #f9f9f9;
-}
-
-.container {
-  background: white;
-  border-radius: 12px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
 
   h1 {
   text-align: center;
