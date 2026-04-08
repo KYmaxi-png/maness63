@@ -97,34 +97,28 @@ target="_blank">
   </button>
 </a>
  
-<form id="form-devis">
+form action="https://formspree.io/f/mwwvzoyp" method="POST">
 
-  <label>Nom</label><br>
-  <input type="text" name="nom" required><br><br>
+  <input type="text" name="nom" placeholder="Nom" required>
 
-  <label>Téléphone</label><br>
-  <input type="tel" name="telephone" required><br><br>
+  <input type="tel" name="telephone" placeholder="Téléphone" required>
 
-  <label>Email</label><br>
-  <input type="email" name="email"><br><br>
+  <input type="email" name="email" placeholder="Email" required>
 
-  <label>Type de projet</label><br>
-  <select name="projet">
+  <select name="type">
     <option>Sol</option>
+    <option>Mur</option>
     <option>Salle de bain</option>
-    <option>Terrasse</option>
-    <option>Autre</option>
-  </select><br><br>
+  </select>
 
-  <label>Surface approximative (m²)</label><br>
-  <input type="number" name="surface"><br><br>
+  <input type="number" name="surface" placeholder="Surface m²">
 
-  <label>Décrivez votre projet</label><br>
-  <textarea name="description"></textarea><br><br>
+  <textarea name="message" placeholder="Décrivez votre projet"></textarea>
 
   <button type="submit">Recevoir mon estimation</button>
 
 </form>
+
 </section>
   
 <a href="https://api.whatsapp.com/send?phone=33660079044&text=Bonjour%20je%20souhaite%20un%20devis%20carrelage"
