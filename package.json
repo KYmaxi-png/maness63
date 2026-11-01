@@ -1,0 +1,14 @@
+{
+  "name": "carrelage-visio",
+  "version": "1.0.0",
+  "private": true,
+  "main": "script.js",
+  "scripts": {
+    "start": "node script.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "stripe": "^23.0.1"
+  }
+}
