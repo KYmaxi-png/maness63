@@ -170,7 +170,49 @@ document.addEventListener("DOMContentLoaded", function() {
      
 
 });
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+
+  const bouton = document.getElementById("payer-prestation");
+
+  if (!bouton) return;
+
+  bouton.addEventListener("click", async function() {
+
+    bouton.disabled = true;
+    bouton.textContent = "Préparation du paiement...";
+
+    try {
+      const reponse = await fetch("/create-checkout-session", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          prestation: "consultation"
+        })
+      });
+
+      const resultat = await reponse.json();
+
+      if (!reponse.ok || !resultat.url) {
+        throw new Error(resultat.error || "Erreur de paiement");
+      }
+
+      window.location.href = resultat.url;
+
+    } catch (erreur) {
+      console.error(erreur);
+      alert("Le paiement n'a pas pu être lancé.");
+
+      bouton.disabled = false;
+      bouton.textContent = "Payer ma prestation – 40 €";
+    }
+
+  });
+
+});
 </script>
-     </body>
+      </body>
      </html>
       
